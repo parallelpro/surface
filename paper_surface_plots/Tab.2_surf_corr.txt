@@ -1,0 +1,17 @@
+\begin{table*} 
+\caption{Best-fitting parameters in the surface correction prescriptions 
+\label{tab:surf-corr} \\ 
+} 
+\begin{tabular*}{1.01\textwidth}{llrrrrrrrrrr}
+\toprule
+        Model &  Sample &              $a$ &             $b$ &              $c$ &              $d$ &             $a'$ &            $b'$ &             $c'$ &             $d'$ \\
+\midrule
+        Cubic &     All & $-4.15 \pm 0.13$ & $0.95 \pm 0.01$ & $-5.48 \pm 0.23$ & $-1.10 \pm 0.03$ &              --- &             --- &              --- &              --- \\
+        Cubic & pre-RGB & $-4.19 \pm 0.39$ & $0.78 \pm 0.07$ & $-5.71 \pm 0.58$ & $-0.07 \pm 0.13$ &              --- &             --- &              --- &              --- \\
+        Cubic &     RGB & $-4.18 \pm 0.13$ & $0.96 \pm 0.01$ & $-5.64 \pm 0.22$ & $-1.11 \pm 0.02$ &              --- &             --- &              --- &              --- \\
+Inverse-cubic &     All & $-3.74 \pm 0.13$ & $1.09 \pm 0.01$ & $-8.74 \pm 0.23$ & $-1.38 \pm 0.02$ & $-4.99 \pm 0.14$ & $1.05 \pm 0.01$ & $-8.15 \pm 0.18$ & $-1.32 \pm 0.02$ \\
+Inverse-cubic & pre-RGB & $-3.72 \pm 0.40$ & $0.61 \pm 0.08$ & $-1.68 \pm 0.82$ & $-0.08 \pm 0.14$ & $-5.55 \pm 0.42$ & $0.65 \pm 0.06$ & $-1.57 \pm 0.62$ & $-0.65 \pm 0.11$ \\
+Inverse-cubic &     RGB & $-3.84 \pm 0.16$ & $1.10 \pm 0.01$ & $-8.83 \pm 0.24$ & $-1.38 \pm 0.02$ & $-5.04 \pm 0.17$ & $1.07 \pm 0.01$ & $-8.33 \pm 0.19$ & $-1.33 \pm 0.02$ \\
+\bottomrule
+\end{tabular*}
+\end{table*} 

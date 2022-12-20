@@ -1,0 +1,23 @@
+\begin{table*} 
+\caption{Stellar parameters of the studied sample. 
+\label{tab:stellar-params} \\ 
+} 
+\begin{tabular*}{1.01\textwidth}{@{\extracolsep{ill}}lrrrrrrrrrrrr}
+\toprule
+       Star &   $L$ & $\sigma_L$ & Ref($L$) & $T_{\rm eff}$ & $\sigma_{T_{\rm eff}}$ & Ref($T_{\rm eff}$) & ${\rm [M/H]}$ & $\sigma_{\rm [M/H]}$ & Ref(${\rm [M/H]}$) \\
+\midrule
+  $\rm Sun$ &   1.0 &       0.02 &      --- &          5777 &                    100 &                --- &           0.0 &                 0.05 &                --- \\
+  $\mu$ Her &  2.54 &       0.08 &        2 &          5560 &                    100 &                  3 &          0.28 &                 0.05 &                  3 \\
+KIC10000547 & 12.68 &       0.51 &        0 &          4969 &                     36 &                  1 &         -0.26 &                 0.05 &                  6 \\
+KIC10001440 & 39.77 &        3.8 &        0 &          4773 &                     42 &                  1 &         -0.65 &                 0.05 &                  6 \\
+KIC10004825 & 42.35 &       3.34 &        0 &          4611 &                     55 &                  1 &          0.21 &                 0.05 &                  6 \\
+KIC10014893 & 68.69 &       4.67 &        0 &          4579 &                     26 &                  1 &         -0.13 &                 0.05 &                  6 \\
+KIC10014959 &  9.29 &       0.33 &        0 &          4813 &                     29 &                  1 &          0.11 &                 0.05 &                  6 \\
+KIC10018442 &  37.7 &       1.89 &        0 &          4781 &                     41 &                  1 &         -0.03 &                 0.05 &                  6 \\
+KIC10018811 & 27.11 &       1.41 &        0 &          4918 &                     28 &                  1 &         -0.29 &                 0.05 &                  6 \\
+\bottomrule
+\end{tabular*}
+ \begin{tablenotes}  
+ \item \emph{Note}: References for the stellar parameters: 0 (This work); 1 \citep{casagrande++2021-irfm-gaia}; 2 \citep{grundahl++2017-mu-her}; 3 \citep{jofre++2015-star-params}; 4 \citep{furlan++2018-kepler}; 5 \citep{lund++2017-legacy-kepler-1}; 6 \citep{ahunmada++2020-apogee-dr16}; 7 \citep{buchhave++2015-feh}. Only the first 10 lines are shown. The full table can be accessed online.
+ \end{tablenotes}
+\end{table*} 
