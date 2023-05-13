@@ -6,10 +6,10 @@ This repo provides the data and programs used in Yaguang Li et al. 2023 (A presc
 - sample/: 
      - samples.xlsx: stellar parameters of the studied sample.
      - modes.xlsx: oscillation frequencies of the studied sample.
-- exp/: an uncurated directory containing project code; use with caution.
+- src/: an uncurated directory containing project code; use with caution.
 - paper_surface_plots/: a curated directory to reproduce the plots shown in the paper.
-- paper_surface_texts/: the tex source files for the paper 
-
+- data/: intermediate data files used in this project.
+- models/: intermediate model files used in this project. They need to be accessed from https://zenodo.org/record/7905521#.ZF9_fhZBzKI
 
 # Citation
 Please kindly cite this paper if you use the data or routines presented by this work.
