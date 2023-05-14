@@ -1,18 +1,32 @@
-# surface
+# surface 
 
-This repo provides the data and programs used in Yaguang Li et al. 2023 (A prescription for the asteroseismic surface correction).
+This repository provides the datasets and Python scripts used in the paper "A Prescription for the Asteroseismic Surface Correction" by Yaguang Li et al., 2023. 
 
-# File structure 
-- sample/: 
-     - samples.xlsx: stellar parameters of the studied sample.
-     - modes.xlsx: oscillation frequencies of the studied sample.
-- src/: an uncurated directory containing project code; use with caution.
-- paper_surface_plots/: a curated directory to reproduce the plots shown in the paper.
-- data/: intermediate data files used in this project.
-- models/: model files used in this project. They need to be accessed from https://zenodo.org/record/7905521
+
+## Directory Structure 
+The repository is organized as follows:
+
+- `data/`: Contains intermediate data files used in this project.
+
+- `models/`: Contains stellar model files used in this project [not shown here]. These files can be accessed from [Zenodo](https://zenodo.org/record/7905521).
+
+- `paper_surface_plots/`: Contains scripts and data to reproduce the plots in the paper. This directory is curated for easy replication of the results.
+
+- `sample/`: Contains the following datasets for the sample stars studied:
+     - `samples.xlsx`: Stellar parameters.
+     - `modes.xlsx`: Oscillation frequencies.
+
+- `src/`: Contains the source code used in this project. This directory is not curated, so use the contents with caution.
+
+- `fDnu.ipynb`': Contains the source code to calculate correction factors for the $\Delta\nu$ scaling relation presented in this work.
+
+- `requirements.txt`: Lists the Python packages required for this project. Note that two additional unreleased packages, `asteroseismology` and `grid`, are also required. These can be accessed on GitHub at the following links:
+    - [asteroseismology](https://github.com/parallelpro/asteroseismology)
+    - [grid](https://github.com/parallelpro/grid)
+
 
 # Citation
-Please kindly cite this paper if you use the data or routines presented by this work.
+If you use the data or routines provided in this repository for your work, please cite the following paper:
 
      @ARTICLE{2022arXiv220801176L,
           author = {{Li}, Yaguang and {Bedding}, Timothy R. and {Stello}, Dennis and {Huber}, Daniel and {Hon}, Marc and {Joyce}, Meridith and {Li}, Tanda and {Perkins}, Jean and {White}, Timothy R. and {Zinn}, Joel C. and {Howard}, Andrew W. and {Isaacson}, Howard},
