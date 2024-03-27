@@ -18,7 +18,7 @@ The repository is organized as follows:
 
 - `mesa_work/`: Constains the MESA/GYRE inlists used to produce the stellar models.
 
-- `fDnu.ipynb`': Contains the source code to calculate correction factors for the $\Delta\nu$ scaling relation presented in this work.
+- `fDnu.ipynb`: Contains the source code to calculate correction factors for the $\Delta\nu$ scaling relation presented in this work.
 
 - `requirements.txt`: Lists the Python packages required for this project. Note that two additional unreleased packages, `asteroseismology` and `grid`, are also required. These can be accessed on GitHub at the following links:
     - [asteroseismology](https://github.com/parallelpro/asteroseismology)
