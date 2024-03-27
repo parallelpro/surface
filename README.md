@@ -1,14 +1,12 @@
 # surface 
 
-This repository provides the datasets and Python scripts used in the paper "A Prescription for the Asteroseismic Surface Correction" by Yaguang Li et al., 2023. 
+This repository provides the datasets and Python scripts used in the paper "A Prescription for the Asteroseismic Surface Correction" by Yaguang Li et al. (2023). The stellar models used in this project can be accessed from [Zenodo](https://zenodo.org/record/7905521).
 
 
 ## Directory Structure 
 The repository is organized as follows:
 
 - `data/`: Contains intermediate data files used in this project.
-
-- `models/`: Contains stellar model files used in this project [not shown here]. These files can be accessed from [Zenodo](https://zenodo.org/record/7905521).
 
 - `paper_surface_plots/`: Contains scripts and data to reproduce the plots in the paper. This directory is curated for easy replication of the results.
 
@@ -17,6 +15,8 @@ The repository is organized as follows:
      - `modes.xlsx`: Oscillation frequencies.
 
 - `src/`: Contains the source code used in this project. This directory is not curated, so use the contents with caution.
+
+- `mesa_work/`: Constains the MESA/GYRE inlists used to produce the stellar models.
 
 - `fDnu.ipynb`': Contains the source code to calculate correction factors for the $\Delta\nu$ scaling relation presented in this work.
 
